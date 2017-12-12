@@ -1,6 +1,6 @@
 # KIMB-Skript — Interpreter für einfachen Pseudocode
 
-Interpreter für einen einfachen Pseudocode geschriben in JavaScript.
+Interpreter für einen einfachen Pseudocode geschrieben in JavaScript.
 
 >
 > Projekt in der Entwicklung
@@ -8,26 +8,31 @@ Interpreter für einen einfachen Pseudocode geschriben in JavaScript.
 
 ## Über die Sprache
 
+>
+> Zieht bald ins Wiki um.
+>
+
 - Elementare Operationen: +,-,*, /, %
 - Elementare Vergleiche: =, >, <, <=, >=, !=
 - Boolsche Operatoren: &, |, !, =>, <=
-- Zuweisung: a = b, int a = b, a += b, a++, a--
+- Zuweisung: a = b, ( :=, ) int a = b, a += b, a++, a--
 - Datentypen: Integer (Float), Bool, Object (Attribut, Wert), String, Function
 - Schleifen: for, while, do while
 - Verzweigung: if, else if, else
 - Funktionendeklaration und  Aufrufe: function name( attr = 'default') { return }, name = function () {}
-- OOP: keine Klassen, nur Objekte (Funktionen lassen sich dort reischreiben)
-- Include Function (nur oben im Programm)
+- OOP: keine Klassen, nur Objekte (Funktionen lassen sich dort reinschreiben)
+- include(<file.ks>) Function (nur oben im Programm)
 
 ### Syntax
 - Blöcke mittels {} oder TAB
-- Argumente, Gruppierung (zB math. Form): ()
+- Argumente, Gruppierung (zB mathematische Form): ()
 - Zeilende: ;, UMBRUCH
 
 ### Lexer
 #### Vorverarbeitung
 - uneindeutige Befehle eindeutig machen, zB: TAB-Block zu {}
-- Include-Dateien einfach dazukopieren
+- include-Dateien einfach dazukopieren
+- Unterscheidung von = im Kontext, Zuweisung vs. Vergleich
 
 #### Lexing
 - Eindeutiger 3-Buchstaben Code pro Befehl, Namen in [name], 
