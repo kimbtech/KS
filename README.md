@@ -14,7 +14,7 @@ Interpreter für einen einfachen Pseudocode geschrieben in JavaScript.
 
 - Elementare Operationen: +,-,*, /, %
 - Elementare Vergleiche: =, >, <, <=, >=, !=
-- Boolsche Operatoren: &, |, !, =>, <=
+- Boolsche Operatoren: &, |, !, =>
 - Zuweisung: a = b, ( :=, ) int a = b, a += b, a++, a--
 - Datentypen: Integer (Float), Bool, Array, Object (Attribut, Wert), String, Function
 - Schleifen: for, while, do while
