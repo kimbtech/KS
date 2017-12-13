@@ -16,7 +16,7 @@ Interpreter für einen einfachen Pseudocode geschrieben in JavaScript.
 - Elementare Vergleiche: =, >, <, <=, >=, !=
 - Boolsche Operatoren: &, |, !, =>, <=
 - Zuweisung: a = b, ( :=, ) int a = b, a += b, a++, a--
-- Datentypen: Integer (Float), Bool, Object (Attribut, Wert), String, Function
+- Datentypen: Integer (Float), Bool, Array, Object (Attribut, Wert), String, Function
 - Schleifen: for, while, do while
 - Verzweigung: if, else if, else
 - Funktionendeklaration und  Aufrufe: function name( attr = 'default') { return }, name = function () {}
@@ -26,6 +26,7 @@ Interpreter für einen einfachen Pseudocode geschrieben in JavaScript.
 ### Syntax
 - Blöcke mittels {} oder TAB
 - Argumente, Gruppierung (zB mathematische Form): ()
+- Indizes, Attribute: [0], [attr name]
 - Zeilende: ;, UMBRUCH
 
 ### Lexer
