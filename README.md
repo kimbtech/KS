@@ -24,7 +24,7 @@ Interpreter für einen einfachen Pseudocode geschrieben in JavaScript.
 - include(<file.ks>) Function (nur oben im Programm)
 
 ### Syntax
-- Blöcke mittels {} oder TAB
+- Blöcke mittels {} oder TAB (\t bzw. 4 Leerzeichen)
 - Argumente, Gruppierung (zB mathematische Form): ()
 - Indizes, Attribute: [0], [attr name]
 - Zeilende: ;, UMBRUCH
@@ -36,8 +36,9 @@ Interpreter für einen einfachen Pseudocode geschrieben in JavaScript.
 - Unterscheidung von = im Kontext, Zuweisung vs. Vergleich
 
 #### Lexing
-- Eindeutiger 3-Buchstaben Code pro Befehl, Namen in [name], 
-- Leerzeichen zwischen "Zeilen", Blöcke durch {}
+- Eindeutiger Buchstaben-Code pro Befehl, Namen in [name]
+- Leerzeichen zwischen Bst-Codes, Blöcke durch {} (in eigener Zeile)
+- Ergebnis Array für jede Zeile, eine Zeile ein Ausdruck
 
 ### Parser
 - alle Schleifen zu while-Schleife,
